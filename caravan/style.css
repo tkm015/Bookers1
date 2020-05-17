@@ -59,6 +59,7 @@ header .headline{
     color: #fff;
 }
 
+<<<<<<< HEAD
 .main {
     width: 800px;
     margin: 0 auto;
@@ -68,6 +69,12 @@ header .headline{
     width: 540px;
     float: left;
     margin-right: 30px;
+=======
+.main-visual{
+	width: 100%;
+	height: 300px;
+	background-image: url(img/mv.jpg);
+>>>>>>> 2d55bf55d97866a48a0f673f49514cbf8c71fcd5
 }
 
 .blog-headline{
