@@ -1,10 +1,12 @@
-var max = 100;
-var num = 1;
-var count = 0;
 
-while(num < max){
-	num = num * 2;
-	count = count + 1;
+var alertString;
+alertString = addString("WebCamp");
+
+
+alert(alertString);
+
+
+function addString(strA){
+    var addStr = "Hello " + strA;
+    return addStr;
 }
-
-alert('２をかけ続けて' + max + 'を超えるのに必要だった回数は' + count +'回です。')
