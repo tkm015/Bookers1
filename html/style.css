@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex{
+	background-color: #00c7ce;
+	height: 200px;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex > :first-child{
+	background-color: #fff;
+	font-size: 30px;
+	margin-right: auto;
+}
